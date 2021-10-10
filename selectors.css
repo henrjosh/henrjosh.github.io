@@ -1,0 +1,63 @@
+/* Simple selector */ 
+li {
+    background-color:rgb(212, 212, 212);
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+    font-size: 18px;
+}
+
+/* Class selector */ 
+.align-center {
+    text-align: center;
+}
+
+.with-border {
+    border: 4px dashed red;
+}
+
+/* ID selector, associated with single, unique elements (no ID is to be used more than once in the source html), also used at the end of URL to specifiy which section of the page*/ 
+#site-title {
+    font-style: italic;
+}
+
+img {
+    max-width:35%;
+    height:auto;
+}
+
+/* Combinators, applies to any element that is both x & y (which can be either two classes or an element and a class) */
+h1.with-border{
+    font-weight: lighter;
+}
+
+/* x y combinators (with a space between the two) selects all y that are decendents of (nested within) x */
+/*
+p, li {
+    background-color: royalblue;
+}
+*/
+
+/* must be directly nested */
+/*
+ul > li {
+    background-color: lime;
+}
+*/
+
+/* x+y and x~y are sibling combinators */
+
+/* 
+selectors are assigned 4 number specificity combinations (ex. 92-243-35-444)
+specificity resolves conflicts between selectors
+higher specificity is favored 
+from right to left, in order of significance, is elements, class, ID & inline (ex. line 33 has specificty 0-0-1-1)
+
