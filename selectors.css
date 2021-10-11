@@ -26,7 +26,7 @@ h3 {
 
 /* ID selector, associated with single, unique elements (no ID is to be used more than once in the source html), also used at the end of URL to specifiy which section of the page*/ 
 #site-title {
-    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img {
