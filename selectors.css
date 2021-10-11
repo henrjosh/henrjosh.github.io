@@ -21,11 +21,14 @@ h3 {
 }
 
 .with-border {
-    border: 4px dashed red;
+    border: 4px solid rgb(40, 52, 122);
 }
 
 /* ID selector, associated with single, unique elements (no ID is to be used more than once in the source html), also used at the end of URL to specifiy which section of the page*/ 
-#site-title {
+#indexsite-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#blogsite-title {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
