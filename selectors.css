@@ -1,6 +1,10 @@
 /* Simple selector */ 
 li {
-    background-color:rgb(212, 212, 212);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+a{
+    font-family: monospace;
 }
 
 h1 {
@@ -12,7 +16,7 @@ h2 {
 }
 
 h3 {
-    font-size: 18px;
+    
 }
 
 /* Class selector */ 
@@ -26,10 +30,10 @@ h3 {
 
 /* ID selector, associated with single, unique elements (no ID is to be used more than once in the source html), also used at the end of URL to specifiy which section of the page*/ 
 #indexsite-title {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 #blogsite-title {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 img {
@@ -39,7 +43,7 @@ img {
 
 /* Combinators, applies to any element that is both x & y (which can be either two classes or an element and a class) */
 h1.with-border{
-    font-weight: lighter;
+    
 }
 
 /* x y combinators (with a space between the two) selects all y that are decendents of (nested within) x */
